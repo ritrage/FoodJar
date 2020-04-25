@@ -1,0 +1,368 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="oop.project.foodjar"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.SEND_SMS" />
+13-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:8:5-81
+14-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:9:5-79
+15-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:11:5-42:19
+21        android:allowBackup="true"
+21-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:12:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d8e6145ebd5f6e1099b739484795a4bd\core-1.1.0\AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:13:9-43
+24        android:label="@string/app_name"
+24-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:14:9-41
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:15:9-54
+26        android:supportsRtl="true"
+26-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:16:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:17:9-40
+29        <activity android:name="oop.project.foodjar.RestaurantList" />
+29-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:18:9-51
+29-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:18:19-49
+30        <activity android:name="oop.project.foodjar.PrimePlus" />
+30-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:19:9-47
+30-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:19:19-44
+31        <activity android:name="oop.project.foodjar.BottomNavigation" />
+31-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:20:9-54
+31-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:20:19-51
+32        <activity android:name="oop.project.foodjar.HealthyFit" />
+32-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:21:9-47
+32-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:21:19-45
+33        <activity android:name="oop.project.foodjar.CartActivity" />
+33-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:22:9-50
+33-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:22:19-47
+34        <activity android:name="oop.project.foodjar.AshaKitchen" />
+34-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:23:9-49
+34-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:23:19-46
+35        <activity android:name="oop.project.foodjar.DominosMenu" />
+35-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:24:9-49
+35-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:24:19-46
+36        <activity android:name="oop.project.foodjar.ForgotPassword" />
+36-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:25:9-52
+36-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:25:19-49
+37        <activity android:name="oop.project.foodjar.TickSplash" />
+37-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:26:9-48
+37-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:26:19-45
+38        <activity android:name="oop.project.foodjar.PhoneNumberPage" />
+38-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:27:9-53
+38-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:27:19-50
+39        <activity android:name="oop.project.foodjar.OrderConfirmation" />
+39-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:28:9-55
+39-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:28:19-52
+40        <activity android:name="oop.project.foodjar.AccountSignup" />
+40-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:29:9-51
+40-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:29:19-48
+41        <activity android:name="oop.project.foodjar.ClientDashboardActivity" />
+41-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:30:9-61
+41-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:30:19-58
+42        <activity android:name="oop.project.foodjar.RiderDashboardActivity" />
+42-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:31:9-60
+42-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:31:19-57
+43        <activity android:name="oop.project.foodjar.LoginActivity" />
+43-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:32:9-51
+43-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:32:19-48
+44        <activity
+44-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:33:9-41:20
+45            android:name="oop.project.foodjar.MainActivity"
+45-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:34:13-41
+46            android:theme="@style/AppTheme.NoActionBar" >
+46-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:35:13-56
+47            <intent-filter>
+47-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:36:13-40:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:37:17-69
+48-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:37:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:39:17-77
+50-->C:\Users\Shailja\Downloads\FoodJar-20200422T140702Z-001\FoodJar\app\src\main\AndroidManifest.xml:39:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <service
+54-->[com.google.firebase:firebase-inappmessaging-display:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\2e6f98b44961e7541591b8b0d7cd428d\jetified-firebase-inappmessaging-display-19.0.5\AndroidManifest.xml:15:9-21:19
+55            android:name="com.google.firebase.components.ComponentDiscoveryService"
+55-->[com.google.firebase:firebase-inappmessaging-display:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\2e6f98b44961e7541591b8b0d7cd428d\jetified-firebase-inappmessaging-display-19.0.5\AndroidManifest.xml:16:13-84
+56            android:directBootAware="true"
+56-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+57            android:exported="false" >
+57-->[com.google.firebase:firebase-inappmessaging-display:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\2e6f98b44961e7541591b8b0d7cd428d\jetified-firebase-inappmessaging-display-19.0.5\AndroidManifest.xml:17:13-37
+58            <meta-data
+58-->[com.google.firebase:firebase-inappmessaging-display:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\2e6f98b44961e7541591b8b0d7cd428d\jetified-firebase-inappmessaging-display-19.0.5\AndroidManifest.xml:18:13-20:85
+59                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+59-->[com.google.firebase:firebase-inappmessaging-display:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\2e6f98b44961e7541591b8b0d7cd428d\jetified-firebase-inappmessaging-display-19.0.5\AndroidManifest.xml:19:17-144
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[com.google.firebase:firebase-inappmessaging-display:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\2e6f98b44961e7541591b8b0d7cd428d\jetified-firebase-inappmessaging-display-19.0.5\AndroidManifest.xml:20:17-82
+61            <meta-data
+61-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:36:13-38:85
+62                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+62-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:37:17-109
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:38:17-82
+64            <meta-data
+64-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:32:13-34:85
+65                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+65-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:33:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-database:19.2.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\468b182d948a813c175d023b96c3e587\jetified-firebase-database-19.2.1\AndroidManifest.xml:34:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-inappmessaging:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\86098ff5d32cc062ee2ec02b41560862\jetified-firebase-inappmessaging-19.0.5\AndroidManifest.xml:17:13-19:85
+68                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+68-->[com.google.firebase:firebase-inappmessaging:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\86098ff5d32cc062ee2ec02b41560862\jetified-firebase-inappmessaging-19.0.5\AndroidManifest.xml:18:17-129
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-inappmessaging:19.0.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\86098ff5d32cc062ee2ec02b41560862\jetified-firebase-inappmessaging-19.0.5\AndroidManifest.xml:19:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:38:13-40:85
+71                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+71-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:39:17-119
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:40:17-82
+73            <meta-data
+73-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:30:13-32:85
+74                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+74-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:31:17-139
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.android.gms:play-services-measurement-api:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\f4b3be98494fec3d1d6c6852c8ae0786\jetified-play-services-measurement-api-17.3.0\AndroidManifest.xml:32:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+77                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+77-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+79            <meta-data
+79-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\58d23881270f634614c0445b004f8e3f\jetified-firebase-abt-19.0.1\AndroidManifest.xml:13:13-15:85
+80                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+80-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\58d23881270f634614c0445b004f8e3f\jetified-firebase-abt-19.0.1\AndroidManifest.xml:14:17-109
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.firebase:firebase-abt:19.0.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\58d23881270f634614c0445b004f8e3f\jetified-firebase-abt-19.0.1\AndroidManifest.xml:15:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\01136c00953e83c126543e1a0a2a9d27\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+83                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+83-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\01136c00953e83c126543e1a0a2a9d27\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\01136c00953e83c126543e1a0a2a9d27\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\a10816b9c03b948f6ceac3bfc820853e\jetified-firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+86                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+86-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\a10816b9c03b948f6ceac3bfc820853e\jetified-firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\a10816b9c03b948f6ceac3bfc820853e\jetified-firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+88        </service>
+89
+90        <activity
+90-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:24:9-31:50
+91            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+91-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:25:13-85
+92            android:excludeFromRecents="true"
+92-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:26:13-46
+93            android:exported="true"
+93-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:27:13-36
+94            android:launchMode="singleTask"
+94-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:28:13-44
+95            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+95-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:29:13-102
+96            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+96-->[com.google.firebase:firebase-auth:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\14604c0a6af4167a1fbdfbf9ae7c8710\jetified-firebase-auth-19.3.0\AndroidManifest.xml:30:13-72
+97        <!--
+98             FirebaseMessagingService performs security checks at runtime,
+99             but set to not exported to explicitly avoid allowing another app to call it.
+100        -->
+101        <service
+101-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:28:9-34:19
+102            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+102-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:29:13-82
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:30:13-37
+104            <intent-filter android:priority="-500" >
+104-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:31:13-33:29
+104-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:31:28-51
+105                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+105-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:32:17-78
+105-->[com.google.firebase:firebase-messaging:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\530f0e3e3abc6cf90cf0c1e58b635f1d\jetified-firebase-messaging-20.1.5\AndroidManifest.xml:32:25-75
+106            </intent-filter>
+107        </service>
+108        <service
+108-->[androidx.room:room-runtime:2.2.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\3b84b7c96f1f92ee2a01c49eceb7586f\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+109            android:name="androidx.room.MultiInstanceInvalidationService"
+109-->[androidx.room:room-runtime:2.2.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\3b84b7c96f1f92ee2a01c49eceb7586f\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+110            android:directBootAware="true"
+110-->[androidx.room:room-runtime:2.2.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\3b84b7c96f1f92ee2a01c49eceb7586f\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+111            android:exported="false" />
+111-->[androidx.room:room-runtime:2.2.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\3b84b7c96f1f92ee2a01c49eceb7586f\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+112
+113        <receiver
+113-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:29:9-33:20
+114            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+114-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:30:13-85
+115            android:enabled="true"
+115-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:31:13-35
+116            android:exported="false" >
+116-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:32:13-37
+117        </receiver>
+118        <receiver
+118-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:34:9-42:20
+119            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+119-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:35:13-100
+120            android:enabled="true"
+120-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:36:13-35
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:37:13-36
+122            android:permission="android.permission.INSTALL_PACKAGES" >
+122-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:38:13-69
+123            <intent-filter>
+123-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:39:13-41:29
+124                <action android:name="com.android.vending.INSTALL_REFERRER" />
+124-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:40:17-79
+124-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:40:25-76
+125            </intent-filter>
+126        </receiver>
+127
+128        <service
+128-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:44:9-47:40
+129            android:name="com.google.android.gms.measurement.AppMeasurementService"
+129-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:45:13-84
+130            android:enabled="true"
+130-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:46:13-35
+131            android:exported="false" />
+131-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:47:13-37
+132        <service
+132-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:48:9-52:72
+133            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+133-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:49:13-87
+134            android:enabled="true"
+134-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:50:13-35
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:51:13-37
+136            android:permission="android.permission.BIND_JOB_SERVICE" />
+136-->[com.google.android.gms:play-services-measurement:17.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\b2ee24cafb186b9bb5ab40319c6d2908\jetified-play-services-measurement-17.3.0\AndroidManifest.xml:52:13-69
+137
+138        <receiver
+138-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+139            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+139-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+140            android:exported="true"
+140-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+141            android:permission="com.google.android.c2dm.permission.SEND" >
+141-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+142            <intent-filter>
+142-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+143                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+143-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+143-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\d0e73e77498584566051e107c3add793\jetified-firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+144            </intent-filter>
+145        </receiver>
+146
+147        <activity
+147-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+148            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+148-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+149            android:exported="false"
+149-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+150            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+150-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\8d306c96d5671c46c09e41df093ec68f\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+151
+152        <provider
+152-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+153            android:name="com.google.firebase.provider.FirebaseInitProvider"
+153-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+154            android:authorities="oop.project.foodjar.firebaseinitprovider"
+154-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+155            android:exported="false"
+155-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+156            android:initOrder="100" />
+156-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\89e8c50f4adcfa71f0d90282494b2c06\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+157
+158        <meta-data
+158-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+159            android:name="com.google.android.gms.version"
+159-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+160            android:value="@integer/google_play_services_version" />
+160-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\f2c8b4624d1269ee053bd8db8444a9c2\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+161
+162        <provider
+162-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+163            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+163-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+164            android:authorities="oop.project.foodjar.lifecycle-process"
+164-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+165            android:exported="false"
+165-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+166            android:multiprocess="true" />
+166-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\dc5b001a60b389d2ab88bff44fb7f033\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+167        <provider
+167-->[com.squareup.picasso:picasso:2.71828] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\cad873dcdc811ae5d0aa6638b805a3bd\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+168            android:name="com.squareup.picasso.PicassoProvider"
+168-->[com.squareup.picasso:picasso:2.71828] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\cad873dcdc811ae5d0aa6638b805a3bd\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+169            android:authorities="oop.project.foodjar.com.squareup.picasso"
+169-->[com.squareup.picasso:picasso:2.71828] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\cad873dcdc811ae5d0aa6638b805a3bd\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+170            android:exported="false" />
+170-->[com.squareup.picasso:picasso:2.71828] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\cad873dcdc811ae5d0aa6638b805a3bd\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+171
+172        <service
+172-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\5bca16e7f72ee0d9190756d50377a344\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+173            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\5bca16e7f72ee0d9190756d50377a344\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+174            android:exported="false" >
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\5bca16e7f72ee0d9190756d50377a344\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+175            <meta-data
+175-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\5bca16e7f72ee0d9190756d50377a344\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+176                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+176-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\5bca16e7f72ee0d9190756d50377a344\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+177                android:value="cct" />
+177-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\5bca16e7f72ee0d9190756d50377a344\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+178        </service>
+179        <service
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\94e06c12cc46e73eb47bc8a3db22810e\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+180            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+180-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\94e06c12cc46e73eb47bc8a3db22810e\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+181            android:exported="false"
+181-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\94e06c12cc46e73eb47bc8a3db22810e\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+182            android:permission="android.permission.BIND_JOB_SERVICE" >
+182-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\94e06c12cc46e73eb47bc8a3db22810e\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+183        </service>
+184
+185        <receiver
+185-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\94e06c12cc46e73eb47bc8a3db22810e\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+186            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+186-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\94e06c12cc46e73eb47bc8a3db22810e\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+187            android:exported="false" />
+187-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Shailja\.gradle\caches\transforms-2\files-2.1\94e06c12cc46e73eb47bc8a3db22810e\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+188    </application>
+189
+190</manifest>

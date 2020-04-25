@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClientDashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lyTitleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <TextView
+                android:id="@+id/tvTitleOrderNumber"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/icon_circle_title"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/_3"
+                android:textColor="#ffffff"
+                android:textSize="17pt"
+                android:padding="0dp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/tvTitleDeliverText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/orders_delivered_today"
+                android:textSize="8.4pt"
+                android:textColor="#5B6B7C"
+                android:gravity="left"
+                android:layout_marginStart="5dp" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_gravity="center"
+                android:layout_marginEnd="0dp">
+
+                <ImageView
+                    android:id="@+id/ivTitleLogo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/app_logo"
+                    android:foregroundGravity="center"
+                    android:contentDescription="TODO" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/dashboardColor"
+                android:paddingTop="10dp"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tvProfileWelcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/welcome"
+                    android:textColor="#fff"
+                    android:textSize="8.77pt" />
+
+                <TextView
+                    android:id="@+id/tvProfileName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/name"
+                    android:textColor="#fff"
+                    android:textSize="12.02pt"
+                    android:layout_marginTop="7dp"
+                    android:layout_below="@+id/tvProfileWelcome" />
+
+                <TextView
+                    android:id="@+id/tvProfileLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You logged in as"
+                    android:textColor="#fff"
+                    android:textSize="6pt"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/tvProfileName" />
+
+                <TextView
+                    android:id="@+id/tvProfileLoginTime"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:text="@string/_10_00_n_am"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_profile_item"
+                    android:layout_below="@+id/tvProfileLogin"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tvLocationDuty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location of duty"
+                    android:textColor="#fff"
+                    android:textSize="7.5pt"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnProfileLoginTime" />
+
+                <TextView
+                    android:id="@+id/tvLocation"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:text="@string/hyderabad"
+                    android:textColor="#ffffff"
+                    android:textSize="6pt"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_profile_item"
+                    android:layout_below="@+id/tvLocationDuty"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:id="@+id/tvProfileOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Orders"
+                    android:textColor="#fff"
+                    android:textSize="7.5pt"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/tvLocation"
+                    />
+
+                <TextView
+                    android:id="@+id/tvOrder"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:text="10 \nDelivered"
+                    android:textColor="#ffffff"
+                    android:textSize="6pt"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bg_profile_item"
+                    android:layout_below="@+id/tvProfileOrder"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/btnPlaceOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PLACE ORDER"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_below="@id/btnProfileOrder"
+                    android:background="@drawable/btn_place_order_style"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp"
+                    android:layout_marginTop="20dp" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_bottom"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="?attr/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:minHeight="?attr/actionBarSize" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/naviBar"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

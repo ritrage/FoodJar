@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="naviBar">#09756B</color>
+    <color name="colorPrimaryDark">#E9AE1105</color>
+    <color name="colorAccent">#E4817A</color>
+    <color name="textColor">#F26E2605</color>
+    <color name="backgroundColor">#D2F16F63</color>
+    <color name="dashboardColor">#E11B0220</color>
+    <color name="Link">#2C90DF</color>
+    <color name="startBlue">#09c6df</color>
+    <color name="endBlue">#0bcce6</color>
+    <color name="colorPrimary">#F34A06</color>
+    <color name="background_color">#009688</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="colorRiderDashboard">#FAB3C507</color>
+    <color name="startEdit">#CDDC39</color>
+    <color name="endEdit">#FF9800</color>
+</resources>

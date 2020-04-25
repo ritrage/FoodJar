@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "591034236857",
+    "firebase_url": "https://food-jar-aa2e4.firebaseio.com",
+    "project_id": "food-jar-aa2e4",
+    "storage_bucket": "food-jar-aa2e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591034236857:android:480f8b1a5fe3aeb79b4068",
+        "android_client_info": {
+          "package_name": "oop.project.foodjar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591034236857-ut3cg3kro9b9f7l4hauat3l4nko7ret9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "oop.project.foodjar",
+            "certificate_hash": "43c3394c881ddd3deb0834d64b880c3b016b64cd"
+          }
+        },
+        {
+          "client_id": "591034236857-57hlvguagjns335pdvh2ims8ho7s5r8t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRprGqe6TiOKdrzyDelNp58sNesV5eFQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591034236857-57hlvguagjns335pdvh2ims8ho7s5r8t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

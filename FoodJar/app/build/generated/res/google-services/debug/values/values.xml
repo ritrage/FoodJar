@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">591034236857-57hlvguagjns335pdvh2ims8ho7s5r8t.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://food-jar-aa2e4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">591034236857</string>
+    <string name="google_api_key" translatable="false">AIzaSyDRprGqe6TiOKdrzyDelNp58sNesV5eFQQ</string>
+    <string name="google_app_id" translatable="false">1:591034236857:android:480f8b1a5fe3aeb79b4068</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDRprGqe6TiOKdrzyDelNp58sNesV5eFQQ</string>
+    <string name="google_storage_bucket" translatable="false">food-jar-aa2e4.appspot.com</string>
+    <string name="project_id" translatable="false">food-jar-aa2e4</string>
+</resources>
